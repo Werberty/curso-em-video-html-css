@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 95vh;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum rem odit tempora eveniet eligendi consequuntur
+        ducimus quas at? Reiciendis culpa impedit quis dicta magni itaque eveniet voluptatem. Distinctio, asperiores
+        laboriosam!</p>
+
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeria página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam fuga quia cumque, eaque sequi asperiores nostrum
+        nobis dolores vero enim rem tenetur quam ratione cupiditate praesentium optio necessitatibus architecto aliquid?
+    </p>
+
+    <iframe id="tela" name="frame" src="" frameborder="1"
+        srcdoc="<h1>Escolha uma das opções acima</h1><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In cumque eligendi molestias amet. Quos dolor repellat vel doloremque quo! Illo at nisi alias reiciendis incidunt corporis esse a nobis iure?</p><img src='img/foto-perfil.png' height='200px'>">
+        <p>Infelizmente seu navegador não é compativel com isso.</p>
+    </iframe>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta quas perspiciatis libero enim veritatis eos
+        ipsum corrupti suscipit minus inventore ex ab nihil, corporis fugit officia eveniet doloribus molestias esse.
+    </p>
+</body>
+
+</html>
