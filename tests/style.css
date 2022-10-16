@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+.container {
+    background-color: gray;
+    border: 2px solid red;
+    padding: 10px;
+
+    display: grid;
+    gap: 5px;
+    grid-template-areas: 
+        'header' 'header' 'header'
+        'sidebar' 'contente' 'contente'
+        'footer' 'footer' 'footer'
+        ;
+}
+
+.container div {
+    background-color: rgb(69, 69, 255);
+    padding: 10px;
+    border: 1px solid red;
+}
+
+#header {
+    grid-area: header;
+}
+
+#sidebar {
+    grid-area: sidebar;
+}
+
+#contente {
+    grid-area: contente;
+}
+
+#footer {
+    grid-area: footer;
+}
+
+
